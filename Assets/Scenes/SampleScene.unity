@@ -338,6 +338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3752fa25dd29a4eb583f4363fc3ab2f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  netManager: {fileID: 1753156352}
 --- !u!4 &1227860557
 Transform:
   m_ObjectHideFlags: 0
@@ -444,7 +445,7 @@ MonoBehaviour:
   m_DisconnectTimeoutMS: 30000
   ConnectionData:
     Address: 127.0.0.1
-    Port: 7777
+    Port: 7778
     ServerListenAddress: 127.0.0.1
   DebugSimulator:
     PacketDelayMS: 0

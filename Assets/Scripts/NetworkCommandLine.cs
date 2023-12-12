@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class NetworkCommandLine : MonoBehaviour
 {
-    private NetworkManager netManager;
+    public NetworkManager netManager;
 
     void Start()
     {
-        netManager = GetComponentInParent<NetworkManager>();
+        Debug.Log("Starting NetworkCommandLine");
+        // netManager = GetComponentInParent<NetworkManager>();
 
         if (Application.isEditor) return;
 
